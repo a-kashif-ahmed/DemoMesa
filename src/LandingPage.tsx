@@ -20,9 +20,9 @@ export default function LandingPage() {
             </div>
             
             <div className="hidden md:flex gap-8">
-              <a href="#home" className="hover:text-emerald-400 transition">Home</a>
+              <a href="#home" className="hover:text-emerald-400 transition" onClick={()=>setActiveSection('home')}>Home</a>
               <a href="#learning" className="text-emerald-400">Learning</a>
-              <a href="#program" className="hover:text-emerald-400 transition">UG Program</a>
+              <a href="#program" className="hover:text-emerald-400 transition " onClick={()=>setActiveSection('program')}>UG Program</a>
               <a href="#outcomes" className="hover:text-emerald-400 transition">Outcomes</a>
               <a href="#msl" className="hover:text-emerald-400 transition">MSL</a>
             </div>
