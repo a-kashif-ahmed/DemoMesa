@@ -5,7 +5,7 @@ export default function LandingPage() {
 
   return (
     <div className="min-h-screen bg-slate-900 text-white">
-      {/* Navigation */}
+      
       <nav className="fixed top-0 w-full  bg-opacity-95 backdrop-blur-sm z-50 border-b border-slate-700">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
@@ -34,11 +34,11 @@ export default function LandingPage() {
         </div>
       </nav>
 
-      {/* Hero Section */}
+      
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-7xl mx-auto">
           
-          {/* Journey Section */}
+          
           <div className="bg-gradient-to-r from-slate-800 to-slate-700 rounded-2xl overflow-hidden">
             <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&h=500&fit=crop" alt="Classroom" className="w-full h-96 object-cover opacity-70"/>
             <div className="absolute inset-0 flex flex-col justify-center px-12">
@@ -84,7 +84,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Learning Approach */}
+      
       <section className="py-20 px-6 bg-slate-800">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
@@ -115,7 +115,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Outcomes Section */}
+      
       <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-12">Post-Random Outcomes: The Careers Random Unlocks</h2>
@@ -128,7 +128,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Stats Section */}
       <section className="py-20 px-6 bg-slate-800">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
